@@ -93,7 +93,7 @@ export default function SignUp({ onNavigate }: { onNavigate: (path: string) => v
 
   return (
     <div>
-      <NavBar onNavigate={onNavigate} />
+      
     
     <section style={{
       maxWidth: "28rem",

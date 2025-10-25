@@ -6,7 +6,7 @@ import FeatureCards from "../components/features-card";
 export default function Landing({onNavigate}: {onNavigate: (path: string) => void}) {
   return (
     <div className="container">
-      <NavBar onNavigate={onNavigate} />
+      
 
       {/* hero section */}
       <div>

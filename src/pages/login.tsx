@@ -94,7 +94,7 @@ export default function Login({onNavigate}: {onNavigate: (path: string) => void}
 
   return (
     <>
-      <NavBar onNavigate={onNavigate} />
+      
 
       <div className="auth-container-tall">
         <h2 className="auth-heading">Welcome Back!</h2>
