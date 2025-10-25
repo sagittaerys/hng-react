@@ -4,7 +4,7 @@ import Landing from './pages/index';
 import Login from './pages/login';
 import SignUp from './pages/sign-up';
 import Dashboard from './pages/dashboard';
-
+import Footer from './components/footer';
 function App() {
   const handleNavigate = (path: string) => {
     window.location.href = path;
@@ -18,6 +18,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard onNavigate={handleNavigate} />} />
         <Route path="/login" element={<Login onNavigate={handleNavigate} />} />
       </Routes>
+      <Footer   />
     </>
   )
 }
