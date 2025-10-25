@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import NavBar from "../components/header";
+
 
 interface FormErrors {
   name?: string;
@@ -90,8 +92,10 @@ export default function SignUp({ onNavigate }: { onNavigate: (path: string) => v
   }
 
   return (
-
-    <div style={{
+    <div>
+      <NavBar onNavigate={onNavigate} />
+    
+    <section style={{
       maxWidth: "28rem",
       margin: "2.5rem auto",
       padding: "1.5rem",
@@ -304,8 +308,8 @@ export default function SignUp({ onNavigate }: { onNavigate: (path: string) => v
            
            
            
-      </div>
-  
+      </section>
+  </div>
       
   );
 }
