@@ -5,8 +5,9 @@ A minimal React + TypeScript + Vite starter used for the HNG React project.
 
 Live demo: https://hng-react.vercel.app/  ￼and https://ticketapp-hng.netlify.app
 
-⸻
+---
 
+```bash
 Table of contents
 	•	About
 	•	Features
@@ -23,6 +24,9 @@ Table of contents
 	•	License
 	•	Acknowledgements
 	•	Changelog template
+
+```
+
 
 ⸻
 
