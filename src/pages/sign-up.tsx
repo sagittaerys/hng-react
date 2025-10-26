@@ -75,14 +75,14 @@ export default function SignUp({ onNavigate }: { onNavigate: (path: string) => v
       users.push(newUser);
       localStorage.setItem("ticketapp_users", JSON.stringify(users));
 
-      setSuccessMessage("Account created successfully! Redirecting to dashboard...");
+      setSuccessMessage("Account created successfully! Redirecting to login...");
       setName("");
       setEmail("");
       setPassword("");
       setConfirmPassword("");
       setErrors({});
 
-      setTimeout(() => onNavigate("/dashboard"), 2000);
+      setTimeout(() => onNavigate("/login"), 2000);
     } catch (err) {
       console.error("Unexpected error:", err);
       setErrors({ general: "An unexpected error occurred. Please try again." });
