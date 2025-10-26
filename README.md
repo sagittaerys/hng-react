@@ -13,17 +13,9 @@ Table of contents
 	•	Features
 	•	Tech stack
 	•	Repository structure
-	•	Prerequisites
-	•	Installation (quick start)
-	•	Available scripts
-	•	Development notes & conventions
-	•	Building & deployment
-	•	Testing & linting
-	•	Troubleshooting
-	•	Contributing
-	•	License
+	•	Installation
 	•	Acknowledgements
-	•	Changelog template
+
 
 ```
 ---
