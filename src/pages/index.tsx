@@ -1,4 +1,3 @@
-import NavBar from "../components/header";
 import HeroSection from "./hero-section";
 import FeatureCards from "../components/features-card";
 

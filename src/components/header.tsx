@@ -77,13 +77,13 @@ export default function NavBar({onNavigate}: {onNavigate: (page: string) => void
             <>
               <button 
                 className="nav-button nav-button-secondary"
-                onClick={() => handleNavigation('/auth/login')}
+                onClick={() => handleNavigation('/login')}
               >
                 Login
               </button>
               <button 
                 className="nav-button nav-button-primary"
-                onClick={() => handleNavigation('/auth/signup')}
+                onClick={() => handleNavigation('/sign-up')}
               >
                 Get Started
               </button>
@@ -109,13 +109,13 @@ export default function NavBar({onNavigate}: {onNavigate: (page: string) => void
         <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
           <button 
             className="nav-button nav-button-secondary"
-            onClick={() => handleNavigation('/auth/login')}
+            onClick={() => handleNavigation('/login')}
           >
             Login
           </button>
           <button 
             className="nav-button nav-button-primary"
-            onClick={() => handleNavigation('/auth/signup')}
+            onClick={() => handleNavigation('/sign-up')}
           >
             Get Started
           </button>

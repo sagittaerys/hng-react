@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import NavBar from "../components/header";
+
 
 
 export default function Login({onNavigate}: {onNavigate: (path: string) => void}) {

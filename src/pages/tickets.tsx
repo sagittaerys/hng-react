@@ -53,7 +53,7 @@ export default function TicketsPage({ onNavigate }: { onNavigate: (path: string)
     const session = localStorage.getItem("ticketapp_session");
 
     if (!session) {
-      onNavigate("/auth/login");
+      onNavigate("/login");
       return;
     }
 
@@ -62,7 +62,7 @@ export default function TicketsPage({ onNavigate }: { onNavigate: (path: string)
 
       if (new Date(sessionData.expiresAt) < new Date()) {
         localStorage.removeItem("ticketapp_session");
-        onNavigate("/auth/login");
+        onNavigate("/login");
         return;
       }
 
@@ -71,7 +71,7 @@ export default function TicketsPage({ onNavigate }: { onNavigate: (path: string)
     } catch (err) {
       console.error("Session error:", err);
       localStorage.removeItem("ticketapp_session");
-      onNavigate("/auth/login");
+      onNavigate("/login");
     }
   }, [onNavigate]);
 
