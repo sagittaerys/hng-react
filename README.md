@@ -1,4 +1,4 @@
-hng-react
+## HNG-react
 
 A minimal React + TypeScript + Vite starter used for the HNG React project.
 (Based on the Vite React TypeScript template and deployed to Vercel.)
@@ -26,9 +26,7 @@ Table of contents
 	•	Changelog template
 
 ```
-
-
-⸻
+---
 
 ## About
 
@@ -58,7 +56,7 @@ This repository is a React + TypeScript app scaffolded with Vite intended for th
 
 Repository structure (recommended / inferred)
 
-`` .
+```bash 
 ├── .gitignore
 ├── README.md
 ├── index.html
@@ -76,32 +74,42 @@ Repository structure (recommended / inferred)
 │   ├── assets/
 │   ├── components/
 │   └── pages/
-└── public/ ``
+└── public/ 
+
+```
 
 ## Installation 
 
 1 . Clone the Repository 
 
-``   git clone https://github.com/sagittaerys/hng-react.git
-cd hng-react ``
+```bash
+
+git clone https://github.com/sagittaerys/hng-react.git
+cd hng-react 
+
+```
 
 2 . Install dependencies 
 
-``   npm install
+```bash
+npm install
 # or
 # yarn
-# pnpm install ``
+# pnpm install 
+
+```
 
 3 . Start the dev server
 
-``   npm run dev ``
+```bash
+   npm run dev 
+```
 
 
 # Acknowledgements
 	•	Vite React + TypeScript starter template.
 	•	React Router 
-	•	React Icons
-	•	React Router 
+	•	React Icons 
 	•	CSS 
 	 
 
