@@ -11,6 +11,7 @@
 body {
   margin: 0;
   padding: 0;
+  max-width: 1440px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -285,6 +286,7 @@ body {
   background: inherit;
   padding: 10rem 1.25rem;
   position: relative;
+  margin-top: 3rem;
 }
 
 .features-container {
